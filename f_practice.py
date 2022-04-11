@@ -32,7 +32,7 @@
 year = input('請輸入年份: ')
 year = int(year)
 def is_leap(year):
-	if year % 4 != int:
+	if year % 4 != 0:
 		return False
 	elif year % 100 != 0:
 		return True
