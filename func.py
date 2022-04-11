@@ -32,3 +32,18 @@ add(3, 4)
 add(123, 100)
 add(y=1)
 add(5)
+
+# return是回傳的意思
+# function如果有return,才可以把function執行的結果給{存}下來
+# 可以想像為function運行完後{化身}成為return出來的東西
+
+def add(x, y):
+	return x + y 
+r = add(3, 4)
+print(r)	
+
+def average(numbers):
+	return sum(numbers) / len(numbers)
+print(average([1, 2, 3]))
+print(average([23, 32, 6]))
+print(average([180, 34, 92]))
